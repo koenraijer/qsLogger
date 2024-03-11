@@ -1,0 +1,45 @@
+﻿@import '@nativescript/theme/css/core.css';
+@import '@nativescript/theme/css/default.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.fab {
+  font-family: 'Font Awesome 5 Brands', 'fa-brands-400';
+  font-weight: 400;
+}
+
+.fas {
+  font-family: 'Font Awesome 5 Free', 'fa-solid-900';
+  font-weight: 900;
+}
+
+.far {
+  font-family: 'Font Awesome 5 Free', 'fa-regular-400';
+  font-weight: 400;
+}
+
+.ion {
+  font-family: 'Ionicons';
+  font-weight: 400;
+  @apply text-base
+}
+
+.list_title {
+  @apply text-lg font-semibold
+}
+
+.text_field {
+  @apply bg-gray-100 border border-gray-500 rounded-lg;
+  padding: 0.5rem 0.75rem;
+  font-size: 1rem;
+}
+
+.textfield_label {
+  @apply pt-2 ml-2 pl-2 text-lg
+}
+
+.button {
+  @apply py-2 px-4 rounded-lg text-white bg-blue-700
+}
